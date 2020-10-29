@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
 </head>
 <body>
-    <img src="focoOff.png" id="foco" onclick="cambiarImagen();">
+    
+    <div id="app"> 
+        <table> 
+        <tr>
+            <td><foco cuarto="Sala"></foco></td>
+            <td><foco cuarto="Comedor"></foco></td>
+            <td><foco cuarto="Cocina"></foco></td>
+        </tr>
+        <tr>
+            <td><foco cuarto="Estancia"></foco></td>
+            <td><foco cuarto="Recamara principal"></foco></td>
+            <td><foco cuarto="Banio"></foco></td>
+        </tr>
+            
+        </table>
+        
+    </div>
+    
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="script.js"></script>
 </body>
 </html>
